@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+build/
+next-env.d.ts
+
+# TypeScript incremental cache
+*.tsbuildinfo
+
+# Local environment files
+.env
+.env*.local
+
+# Embedded PostgreSQL (PGlite) runtime storage & exported survey files
+/data/
+.pglite/
+/exports/
+
+# OS / editor artifacts
+.DS_Store
